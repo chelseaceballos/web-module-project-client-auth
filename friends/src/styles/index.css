@@ -1,3 +1,12 @@
+
+/* Color Palette{
+    #006D77
+    #83C5BE
+    #EDF6F9
+    #FFDDD2
+    #E29578
+} */
+
 /*CSS Reset*/
 *{
     box-sizing: border-box;
@@ -17,6 +26,9 @@ body{
     color:#006D77;
     font-family: 'PT Sans', sans-serif;
     background-color:#FFFAFA;
+    background-image: url("../clouds.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1, h2, h3, h4{
     letter-spacing: 3px;
@@ -40,9 +52,10 @@ a{
     letter-spacing:3px;
     color:#4F4F4F;
     font-family: 'PT Sans', sans-serif;
+    
 }
 a:hover{
-    color:#fcb131;
+    color:#31d3fc;
 }
 i{
     font-size: 5rem;
@@ -89,4 +102,70 @@ input{
     background-color: #83C5BE;
     color: #fff;
     font-weight: bolder;
+}
+
+/* addFriendForm Styles */
+.addForm{
+    font-size: 1.3em;
+    width: 40%;
+    height: 55vh;
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 4%;
+    background-color:  #83c5bfcb;
+    border-radius: 10%;
+    justify-content: space-around;
+    
+}
+form{
+    /* margin: 29%; */
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    border: 1px solid rgba(128, 0, 128, 0.384);
+    padding: 20% 15%;
+    
+}
+
+input{
+    
+    background-color: #ffddd2b0;
+    height: 5vh;
+    margin: 0 10%;
+    margin-bottom: 5%;
+}
+
+.addBtn{
+    margin: 0 25%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 10%;
+    background-color: #E29578;
+    color:  #006D77;
+    font-weight: bolder;
+}
+
+.inputs{
+   
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.friendLinks {
+   
+    width: 50%;
+     margin-left: 25%;
+   padding: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+} 
+
+a {
+   
+    margin: 0 2%;
 }
