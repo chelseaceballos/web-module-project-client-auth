@@ -24,7 +24,7 @@ Topics:
 ### Task 2: MVP
 
 #### Project Description
-✅✅
+
 * There is an API built that has authentication built into it. The API holds a list of friends and lets you add, edit, or remove friends from that list. 
 
 * All of the API endpoints (except the login endpoint) are considered "protected", meaning you have to make the request with an authentication token in the header or the API will send back a `401` error. 
@@ -45,9 +45,9 @@ Topics:
 
 
 #### Build the App!
-* Add a route for a login page and build out a simple login form with username and password inputs and a submit button (design this however you would like).
-* The login function should save the returned token to localStorage. You can setup `isLoading` state in your Login component, and show a spinner on your form or in your button while the login request is happening.
-* When the request returns, save the token to `localStorage`, then use the history object in your Login component to navigate your user to your FriendsList route
+* ✅✅Add a route for a login page and build out a simple login form with username and password inputs and a submit button (design this however you would like).
+* -- maybe -- The login function should save the returned token to localStorage. You can setup `isLoading` state in your Login component, and show a spinner on your form or in your button while the login request is happening.
+* ✅✅When the request returns, save the token to `localStorage`, then use the history object in your Login component to navigate your user to your FriendsList route
 * Create a `<PrivateRoute />` component to protect your other routes. It should check localStorage for a token, and redirect the user to your login route if there is not a token.
 * Create a protected route for your friends list. Remember, if the user isn't logged in, navigating to this protected route will redirect them to the login page.
 * In your FriendsList component, rendered with `<ProtectedRoute />`, you will create a list of your friends that you get from the API.
