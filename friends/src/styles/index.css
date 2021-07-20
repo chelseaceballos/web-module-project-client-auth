@@ -1,0 +1,92 @@
+/*CSS Reset*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+  /*put a border around everything to see where it stops and starts*/
+    /* border:1px solid #fff; */
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#006D77;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#FFFAFA;
+}
+h1, h2, h3, h4{
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration:none;
+    letter-spacing:3px;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+}
+a:hover{
+    color:#fcb131;
+}
+i{
+    font-size: 5rem;
+}
+ 
+
+/* general Styles */
+body{
+    background-color:#EDF6F9 ;
+}
+.loginForm{
+    font-size: 1.3em;
+    width: 40%;
+    height: 40vh;
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 4%;
+    background-color: #E29578;
+    border-radius: 10%;
+    justify-content: space-around;
+}
+form{
+    /* margin: 29%; */
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    
+}
+
+input{
+    margin: 5%;
+    background-color: #ffddd2b0;
+    height: 3vh;
+    margin: 0 10%;
+}
+
+.loginBtn{
+    margin: 0 25%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 10%;
+    background-color: #83C5BE;
+    color: #fff;
+    font-weight: bolder;
+}
