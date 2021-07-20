@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Login from './components/Login';
+import FriendsList from './components/FriendsList';
+
+import  PrivateRoute from './components/PrivateRoute';
 
 function App() {
   return (
@@ -9,10 +12,10 @@ function App() {
         <h1>Welcome Friends!</h1>
 
         <Switch> 
-          {/* <Route path="/friends">
-            <Friends />
-          </Route>
-        */}
+          <PrivateRoute path="/friends">
+            <FriendsList />
+          </PrivateRoute>
+       
           <Route path="/login">
             <Login />
           </Route>
