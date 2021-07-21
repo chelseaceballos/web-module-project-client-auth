@@ -16,11 +16,14 @@ function FriendsList(props) {
     }, [])
 
     return (
-        <div>
-            <h3>Current Friends</h3>
-            {friends.map(friend => (
-                <p key ={friend.id}> {friend.name} </p>
+        <div >
+            <h2>Current Friends</h2>
+            <div className="friends" >
+            {friends.map(friend => (     
+                <p key ={friend.id}> {friend.name} </p> 
             ))}
+           
+            </div>
         </div>
     )
 }

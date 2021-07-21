@@ -169,3 +169,20 @@ a {
    
     margin: 0 2%;
 }
+
+/* FriendsList CSS */
+.friends{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color:rgba(128, 0, 128, 0.459);
+    border-radius: 5%;
+}
+
+
+
+p{
+    padding: 2%;
+    font-size: 1.5em;
+    color: white;
+}
