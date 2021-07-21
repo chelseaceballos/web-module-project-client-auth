@@ -75,7 +75,7 @@ body{
     flex-direction: column;
     align-content: center;
     padding: 4%;
-    background-color: #E29578;
+    background-color:rgb(226, 149, 120, 0.784);
     border-radius: 10%;
     justify-content: space-around;
 }

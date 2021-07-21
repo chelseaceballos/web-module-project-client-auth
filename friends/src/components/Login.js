@@ -35,6 +35,7 @@ const { push } = useHistory();
     return (
         <div className="app">
             <form onSubmit={handleSubmit} className="loginForm">
+                <div className="inputs">
                 <label htmlFor="username">Username:</label>
                 <input 
                 id="username" 
@@ -51,6 +52,7 @@ const { push } = useHistory();
                 onChange={handleChanges}/>
 
                 <button className="loginBtn">Login</button>
+                </div>
             </form>
             
         </div>
